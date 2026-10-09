@@ -108,3 +108,17 @@ Console.WriteLine($"Год рождения: {birthday} (в 2030 будет {age
 Console.WriteLine($"Средний балл: {averageGrade}");
 Console.WriteLine($"Балл >= 4.0: {gradeAccuracy}");
 Console.WriteLine($"Любимая буква: {favoriteLetter}");
+
+Console.Write("Введите ваш рост в метрах: ");
+double height = double.Parse(Console.ReadLine());
+Console.Write("Введите ваш вес в килограммах: ");
+double weight = double.Parse(Console.ReadLine());
+double bmi = weight / (height * height);
+Console.WriteLine($"ИМТ: {bmi:F2}");
+
+Console.Write("Введите фамилию: ");
+string lastName = Console.ReadLine();
+Console.Write("Введите имя: ");
+string firstName = Console.ReadLine();
+char firstInitial = firstName[0]; 
+Console.WriteLine($"Результат: {lastName} {firstInitial}.");
