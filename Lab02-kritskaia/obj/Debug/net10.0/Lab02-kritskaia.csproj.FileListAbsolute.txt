@@ -1,0 +1,14 @@
+C:\Users\PC\Documents\algo-prog-course\Lab02-kritskaia\bin\Debug\net10.0\Lab02-kritskaia.exe
+C:\Users\PC\Documents\algo-prog-course\Lab02-kritskaia\bin\Debug\net10.0\Lab02-kritskaia.deps.json
+C:\Users\PC\Documents\algo-prog-course\Lab02-kritskaia\bin\Debug\net10.0\Lab02-kritskaia.runtimeconfig.json
+C:\Users\PC\Documents\algo-prog-course\Lab02-kritskaia\bin\Debug\net10.0\Lab02-kritskaia.dll
+C:\Users\PC\Documents\algo-prog-course\Lab02-kritskaia\bin\Debug\net10.0\Lab02-kritskaia.pdb
+C:\Users\PC\Documents\algo-prog-course\Lab02-kritskaia\obj\Debug\net10.0\Lab02-kritskaia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\algo-prog-course\Lab02-kritskaia\obj\Debug\net10.0\Lab02-kritskaia.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\algo-prog-course\Lab02-kritskaia\obj\Debug\net10.0\Lab02-kritskaia.AssemblyInfo.cs
+C:\Users\PC\Documents\algo-prog-course\Lab02-kritskaia\obj\Debug\net10.0\Lab02-kritskaia.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\algo-prog-course\Lab02-kritskaia\obj\Debug\net10.0\Lab02-kritskaia.dll
+C:\Users\PC\Documents\algo-prog-course\Lab02-kritskaia\obj\Debug\net10.0\refint\Lab02-kritskaia.dll
+C:\Users\PC\Documents\algo-prog-course\Lab02-kritskaia\obj\Debug\net10.0\Lab02-kritskaia.pdb
+C:\Users\PC\Documents\algo-prog-course\Lab02-kritskaia\obj\Debug\net10.0\Lab02-kritskaia.genruntimeconfig.cache
+C:\Users\PC\Documents\algo-prog-course\Lab02-kritskaia\obj\Debug\net10.0\ref\Lab02-kritskaia.dll
