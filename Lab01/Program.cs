@@ -48,3 +48,21 @@ double studentsPerGroupCorrect = (double)totalStudents / groupsCount;
 
 Console.WriteLine($"25 / 4 как int:     {studentsPerGroupWrong}");
 Console.WriteLine($"25 / 4 как double: {studentsPerGroupCorrect}");
+int scholarship = 1500;
+int monthlyExpenses = 300;
+int expenses = (scholarship - monthlyExpenses);
+Console.WriteLine($"остаток дохода к концу месяца: {expenses}");
+Console.WriteLine();
+
+double celsius = 23.5;
+double inFahrenheit = celsius * 9 / 5 + 32;
+double inKelvin = celsius + 273.15;
+
+Console.WriteLine($" {celsius}°C = {inFahrenheit}°F = {inKelvin}K ");
+Console.WriteLine();
+
+int totalMinutes = 500;
+int minutesPerLesson = 45;
+int fullLesson = totalMinutes / minutesPerLesson;
+int remainingMinutes = totalMinutes % minutesPerLesson;
+Console.WriteLine($"{totalMinutes} минут = {fullLesson} полных занятий + {remainingMinutes} минут");
