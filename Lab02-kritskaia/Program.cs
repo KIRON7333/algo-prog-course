@@ -122,3 +122,23 @@ Console.Write("Введите имя: ");
 string firstName = Console.ReadLine();
 char firstInitial = firstName[0]; 
 Console.WriteLine($"Результат: {lastName} {firstInitial}.");
+
+Console.Write("Введите целое число: ");
+int number = int.Parse(Console.ReadLine());
+bool isEven = (number % 2 == 0);
+Console.WriteLine($"Число чётное? {isEven}");
+
+Console.Write("Введите сумму покупки: ");
+double purchaseAmount = double.Parse(Console.ReadLine());
+Console.Write("Есть ли карта постоянного клиента? (1 - Да, 0 - Нет): ");
+bool hasCard = Console.ReadLine() == "1";
+Console.Write("Введите количество товаров в чеке: ");
+int itemsCount = int.Parse(Console.ReadLine());
+bool isLargePurchase = purchaseAmount >= 3000;
+bool hasManyItems = itemsCount >= 3;
+bool eligibleForDiscount = (isLargePurchase && hasManyItems) || hasCard;
+Console.WriteLine($"--- Детализация условий ---");
+Console.WriteLine($"Сумма покупки >= 3000: {isLargePurchase}");
+Console.WriteLine($"Количество товаров >= 3: {hasManyItems}");
+Console.WriteLine($"Есть карта клиента: {hasCard}");
+Console.WriteLine($"Итоговое право на скидку: {eligibleForDiscount}");
